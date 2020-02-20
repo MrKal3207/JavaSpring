@@ -7,6 +7,7 @@ public class Test {
     @Autowired
     SpringMavenService springMavenService;
     public static void main(String[] args) {
+        SpringMavenService springMavenService = new SpringMavenService();
         springMavenService.exec();
     }
 }
